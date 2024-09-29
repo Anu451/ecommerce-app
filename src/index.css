@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.iconText {
+		color: #666666;
+		font-size: 14px;
+	}
+	.drowDownHover {
+		padding: 4px 8px;
+	}
+	.drowDownHover:hover {
+		background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+		color: white;
+	}
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
